@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.bayss.common.netty.proto;
+
+message MessageeHeader{
+  uint32 version = 1;
+  uint32 magic_num = 2;
+  uint32 cmd = 3;
+  uint32 len = 4;
+  bytes data = 5;
+}

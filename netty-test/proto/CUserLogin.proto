@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.bayss.common.netty.proto;
+
+message CUserLoginReq{
+  optional string username = 1;
+  optional string passwd = 2;
+}
+
+message CUserLoginResp{
+  optional uint64 uid = 1;
+}

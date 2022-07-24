@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="version7" />
+        <module name="java8-test" />
+        <module name="web-flux" />
+        <module name="concurrent-test" />
+        <module name="netty-test" />
+        <module name="version11" />
+        <module name="spring-tdd" />
+        <module name="version8" />
+        <module name="design-patterns" />
+        <module name="java11-test" />
+        <module name="version17" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jdk18" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
